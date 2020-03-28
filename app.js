@@ -44,11 +44,13 @@ const dataSearch = (data, search, filter) => {
         console.log(data.mission_name);
       }
     } else if (search == "launch_site") {
-      if (data[search].rocket_name == filter) {
+      if (data[search].launch_site == filter) {
         dataFetcher(data);
         console.log(data.mission_name);
       }
     }
+  } else {
+    console.log("Zero results: try other search/filter...");
   }
 };
 
