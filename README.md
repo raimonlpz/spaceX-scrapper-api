@@ -1,4 +1,4 @@
-# spaceX-scrapper-api
+# spaceX-scrapper-app
 Scrapper app that consumes spaceX api and downloads JSON data with dynamic filters.
 Example ENDPOINTS: 
 1) ALL 
